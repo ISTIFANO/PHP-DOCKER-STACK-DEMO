@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:latest
+    image: mysql:5.7 # Correct database image
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
@@ -39,8 +39,6 @@ services:
       - PMA_HOST=db
       - PMA_USER=root
       - PMA_PASSWORD=rootpassword
-      - MYSQL_ROOT_PASSWORD=rootpassword
-      - PMA_ARBITRARY=1
     depends_on:
       - db
     networks:

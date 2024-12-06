@@ -22,7 +22,8 @@ try {
         echo "<hr>";
     }
     
-    echo("hhhh");
 } catch(Exception $e) {
     echo "This is new " . $e->getMessage();
 } 
+// <br>
+echo("hhhh");
