@@ -1,9 +1,10 @@
 <?php
 try {
     $connect = mysqli_connect(
-        'db:3306', 
-        'php_docker',
-        'password',
+        'db', // Hostname (Docker service name)
+        'myuser', // Username
+        'mypassword', // Password
+        'my_database' // Database name
     );
     
     $table_name = "user";

@@ -2,8 +2,7 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:5.7 # Correct database image
-    restart: always
+    image: mysql:latest # Correct database image
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
       - MYSQL_DATABASE=my_database
@@ -50,3 +49,4 @@ networks:
 
 volumes:
   mysql_data:
+    name: my_project_mysql_data
