@@ -39,9 +39,17 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `title`, `body`, `date_created`) VALUES
-(1, 'Mr.', 'Lorem ipsum scing elit.', '2024-12-05'),
-(2, 'Ms.', 'Sed do eiusmod .', '2024-12-04'),
-(3, 'Dr.', 'Ut enim ad misequat.', '2024-12-03');
+(1, 'Mr.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', '2024-12-05'),
+(2, 'Ms.', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', '2024-12-04'),
+(3, 'Dr.', 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', '2024-12-03'),
+(4, 'Mr.', 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', '2024-12-02'),
+(5, 'Ms.', 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '2024-12-01'),
+(6, 'Dr.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', '2024-11-30'),
+(7, 'Mr.', 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?', '2024-11-29'),
+(8, 'Ms.', 'Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', '2024-11-28'),
+(9, 'Dr.', 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', '2024-11-27'),
+(10, 'Mr.', 'Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.', '2024-11-26');
+
 
 --
 -- Index pour les tables déchargées
