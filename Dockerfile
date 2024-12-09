@@ -18,3 +18,8 @@ RUN a2enmod rewrite
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# COPY ./db/database.sql /docker-entrypoint-initdb.d/
+
+# # Command to start Apache server
+# CMD ["apache2-foreground"]
